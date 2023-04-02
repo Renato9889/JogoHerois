@@ -3,6 +3,8 @@ body {
   font-family: 'International Super Hero', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  max-width: 100%;
 }
 html {
   scroll-behavior: smooth;
@@ -10,7 +12,7 @@ html {
 * {
   margin: 0;
   padding: 0;
-  cursor: none;
+  box-sizing: border-box;
 }
 #no-scroll {
   overflow: hidden;
@@ -70,7 +72,7 @@ html {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px){
   .cursor{
     background-size: 5%;
   }

@@ -80,7 +80,7 @@
   color: #f14603 !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px){
     .navbar {
       padding: 1rem 0rem !important;
       background-color: transparent !important;
@@ -108,14 +108,18 @@
 
 .homepagebackground {
     width: 100%;
-    height: 145vh;
+    height: 100vh;
     background-color: #0931f8;
     background-image:url("../Assets/fundoazul.jpg");
     background-size: 100%;
     background-repeat: repeat;
-    background-position: top;
+    background-position: center;
     background-attachment: fixed;
     position: center;
+    max-width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
     
 }
 
@@ -204,16 +208,22 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    border: none;
+    cursor: none;
+    padding: 0.5rem 3rem !important;
+    transition: all 0.3s ease-out 0s !important;
+    position: relative !important;
+
 }
-.playgame:hover{
+.playgame:hover {
     background-color: rgb(195, 14, 14);
 }
-
-@media (max-width: 767px) {
+@media (max-width: 767px){
     .homepagebackground {
         background-image:url("../Assets/responsivefundo.jpg");
         background-size: 115%;
         height: 100vh;
+        background-position: center;
     }
   
     .Typewriter__wrapper {
@@ -244,3 +254,54 @@
         margin-left: 29%;
     }
   }
+
+/* Sobrepage style */
+
+
+.sobrehead {
+  font-family: 'International Super Hero', sans-serif;
+  padding-top: 10%;
+  text-align: center;
+  font-size: 4.2rem;
+  font-weight: 34px;
+  letter-spacing: 1px;
+  color: darkblue;
+}
+.sobrepara {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+}
+.sobrebtn {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 50px;
+  border: solid 2px;
+  background-color: transparent;
+  letter-spacing: 2px;
+}
+.sobrebtn:hover {
+  background-color: rgba(255, 251, 3, 0.867);
+}
+
+.copyright {
+  padding: 1px;
+  text-align: center;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.copyright span{
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+@media (max-width: 767px) {
+  .sobrehead{
+    padding-top: 40%;
+  }
+  .contactpara br {
+    display: none;
+  }
+}

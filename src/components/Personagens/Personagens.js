@@ -1,14 +1,17 @@
 import React from 'react'
 import '../../pages/style.css';
-import { Container } from 'react-bootstrap'
+import Carousel from "./Carousel";
+import { Container, Row, Col} from 'react-bootstrap'
 
 function Personagens(){
     return(
         <div className='homepagebackground'>
             <Container>
-                <div>
-                    <p></p>
-                </div>
+                <Row>
+                    <Col md={0}>
+                        <Carousel/>
+                    </Col>
+                </Row>   
             </Container>
         </div>
     )
