@@ -2,6 +2,8 @@ import './Carousel.css';
 
 
 function Carrosel(){
+
+    
     return(
         <div className='homepagebackground'>
            <section class="carousel" aria-label="Gallery">
@@ -13,7 +15,7 @@ function Carrosel(){
                     class="carousel__slide">
 
                 <div class="carousel__snapper">
-                    <a href="#carousel__slide10"
+                    <a href="#carousel__slide11"
                     class="carousel__prev">Go to last slide</a>
                     <a href="#carousel__slide2"
                     class="carousel__next">Go to next slide</a>
@@ -120,6 +122,16 @@ function Carrosel(){
                 <div class="carousel__snapper"></div>
                 <a href="#carousel__slide9"
                     class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide11"
+                    class="carousel__next">Go to next slide</a>
+                </li>
+
+                <li id="carousel__slide11"
+                    tabindex="0"
+                    class="carousel__slide11">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide10"
+                    class="carousel__prev">Go to previous slide</a>
                 <a href="#carousel__slide1"
                     class="carousel__next">Go to next slide</a>
                 </li>
@@ -180,6 +192,11 @@ function Carrosel(){
                 <li class="carousel__navigation-item">
                     <a href="#carousel__slide10"
                     class="carousel__navigation-button">Go to slide 10</a>
+                </li>
+
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide11"
+                    class="carousel__navigation-button">Go to slide 11</a>
                 </li>
 
                 </ol>

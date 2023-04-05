@@ -18,10 +18,10 @@
       left: 0;
     }
     95% {
-      left: -900%;
+      left: -1000%;
     }
     98% {
-      left: -900%;
+      left: -1000%;
     }
     99% {
       left: 0;
@@ -87,10 +87,7 @@ body {
     margin-left: 22%;
     
 
-    max-height: 100vh;
-    min-height: 70%;
-    max-width: 25%;
-    min-width: 25%;
+   
     
    
 
@@ -107,11 +104,7 @@ body {
       margin-top: 40%;
       margin-left: 11.5%;
 
-      max-width: 70%;
-      max-height: 60%;
-
-      min-height: 50%;
-      min-width: 60%;
+      
      
        
     }
@@ -388,11 +381,39 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 
-  }  .carousel__slide4:nth-child(even) {
+  }
+
+  .carousel__slide11 {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+    background-color: #f99;
+   
+    background-image: url(./Assets/Tiron.jpeg);
+    background-size: 105% 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+  .carousel__slide11:nth-child(even) {
     background-color: #99f;
   }
   
-  .carousel__slide10:before {
+  .carousel__slide11:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-40%,70px);
+    color: #fff;
+    font-size: 2em;
+  }
+  
+  .carousel__slide11:nth-child(even) {
+    background-color: #99f;
+  }
+  
+  .carousel__slide11:before {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -402,7 +423,7 @@ body {
   }
   
   @media (hover: hover) {
-    .carousel__slide10:last-child .carousel__snapper {
+    .carousel__slide11 :last-child .carousel__snapper {
       animation-name: tostart, snap;
     }
   }

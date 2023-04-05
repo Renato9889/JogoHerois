@@ -1,0 +1,46 @@
+.btnSortear{
+  width: 27%;
+  font-family: 'International Super Hero', sans-serif;
+  background-color: yellow;
+  color: black;
+  margin: 6rem 0 2rem 0;
+  border: none;
+  font-size: 2rem;
+  position: relative;
+}
+@media (max-width: 767px){
+  .btnSortear{
+    font-size: 1rem;
+    padding: 0rem 0rem;
+    margin: 7rem 2rem;
+  }
+}
+
+.btnPlay{
+  width: 20%;
+  font-family: 'International Super Hero', sans-serif;
+  background-color: yellow;
+  color: black;
+  margin: 5% 5% 40% 5%;
+  border: none;
+  font-size: 2rem;
+  position: relative;
+}
+
+.cartaJogador{
+  margin-left: 6%;
+  width: 30%;
+  position: relative;
+}
+.cartaMaquina{
+  width: 30%;
+  position: relative;
+  
+}
+
+.vsimg{
+  width: 90%;
+  position: fixed;
+  padding-top: 10%;
+  padding-left: 12%;
+}

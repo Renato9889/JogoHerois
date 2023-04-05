@@ -13,12 +13,12 @@ function Sobre(){
                     ESSE SITE É UM PROJETO PESSOAL FEITO APENAS PARA FINS DE DEMOSTRAÇÃO.<br/> NELE APLICO MEUS CONHECIMENTOS DE REACT, UX, WEB DISGNER,<br/> HTML, CSS, BOOTSTRAP E JAVASCRIPT.
                     </p>
                     <p className="sobrepara">
-                    QUALQUER DÚVIDA, SUGESTÃO, RECRAMAÇÃO OU INTERESSE,<br/> SÓ MANDAR NO MEU EMAIL:
+                    QUALQUER DÚVIDA, SUGESTÃO, RECRAMAÇÃO OU INTERESSE,<br/> SÓ MANDAR UMA MENSAGEM NO MEU EMAIL:
                     </p>
                     <button
                         className='sobrebtn'
                         onClick={() => {
-                            window.open('mailto:renatoluiz3498@gmail.com?subject=Via Torneio de Heróis');
+                            window.open('mailto:renatoluiz@gmail.com?subject=Via Torneio de Heróis');
                         }}
                         >Diga olá</button>
                     </Col>

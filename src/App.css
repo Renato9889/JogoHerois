@@ -63,9 +63,10 @@ html {
   background-image: url("./Assets/teste.png");
   background-size: 3%;
   background-repeat: no-repeat;
+  
   height: 100%;
   width: 100%;
-  
+
   position: fixed;
   top: 0;
   left: 0;
@@ -74,6 +75,7 @@ html {
 
 @media (max-width: 767px){
   .cursor{
-    background-size: 5%;
+    background-size: 0%;
+    cursor: none;
   }
 }
