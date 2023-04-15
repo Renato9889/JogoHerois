@@ -8,7 +8,7 @@ function Personagens(){
         <div className='homepagebackground'>
             <Container>
                 <Row>
-                    <Col md={0}>
+                    <Col>
                         <Carousel/>
                     </Col>
                 </Row>   

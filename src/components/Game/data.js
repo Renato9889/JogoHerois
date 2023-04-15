@@ -1,14 +1,14 @@
-import Carta1 from './GameCartas/Carta1.gif';
-import Carta2 from './GameCartas/Carta2.gif';
-import Carta3 from './GameCartas/Carta3.gif';
-import Carta4 from './GameCartas/Carta4.gif';
-import Carta5 from './GameCartas/Carta5.gif';
-import Carta6 from './GameCartas/Carta6.gif';
-import Carta7 from './GameCartas/Carta7.gif';
-import Carta8 from './GameCartas/Carta8.gif';
-import Carta9 from './GameCartas/Carta9.gif';
-import Carta10 from './GameCartas/Carta10.gif';
-import Carta11 from './GameCartas/Carta11.gif';
+import Carta1 from './GameCartas/carta1.gif';
+import Carta2 from './GameCartas/carta2.gif';
+import Carta3 from './GameCartas/carta3.gif';
+import Carta4 from './GameCartas/carta4.gif';
+import Carta5 from './GameCartas/carta5.gif';
+import Carta6 from './GameCartas/carta6.gif';
+import Carta7 from './GameCartas/carta7.gif';
+import Carta8 from './GameCartas/carta8.gif';
+import Carta9 from './GameCartas/carta9.gif';
+import Carta10 from './GameCartas/carta10.gif';
+import Carta11 from './GameCartas/carta11.gif';
 
 
 const data = {
@@ -26,7 +26,7 @@ const data = {
             nome: "Mister X",
             imgSrc: Carta2,
             ataque: 8,
-            defesa: 7,
+            defesa: 8,
             poder: 9
         },
         {
@@ -34,16 +34,16 @@ const data = {
             nome: "Willow",
             imgSrc: Carta3,
             ataque: 8,
-            defesa: 9,
+            defesa: 10,
             poder: 7
         },
         {
             id: 4,
             nome: "Tyron",
             imgSrc: Carta4,
-            ataque: 8,
+            ataque: 7,
             defesa: 9,
-            poder: 7
+            poder: 6
         },
         {
             id: 5,
@@ -66,7 +66,7 @@ const data = {
             nome: "Raio",
             imgSrc: Carta7,
             ataque: 9,
-            defesa: 8,
+            defesa: 7,
             poder: 8
         },
         {
@@ -99,7 +99,7 @@ const data = {
             imgSrc: Carta11,
             ataque: 9,
             defesa: 8,
-            poder: 10
+            poder: 9
         }
     ],
 };
