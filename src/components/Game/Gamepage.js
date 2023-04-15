@@ -72,10 +72,10 @@ function Gamepage(){
                 }
             }else{
                 if(atributo === 'defesa'){
-                    if(carta.ataque > carta2.ataque){
+                    if(carta.defesa > carta2.defesa){
                         return "Você venceu";
                     }else{
-                        if(carta.ataque < carta2.ataque){
+                        if(carta.defesa < carta2.defesa){
                             return "Você perdeu";
                         }else{
                             return "EMPATOU";
