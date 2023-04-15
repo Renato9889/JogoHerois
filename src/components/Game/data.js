@@ -1,14 +1,14 @@
-import Carta1 from './GameCartas/carta1.gif';
-import Carta2 from './GameCartas/carta2.gif';
-import Carta3 from './GameCartas/carta3.gif';
-import Carta4 from './GameCartas/carta4.gif';
-import Carta5 from './GameCartas/carta5.gif';
-import Carta6 from './GameCartas/carta6.gif';
-import Carta7 from './GameCartas/carta7.gif';
-import Carta8 from './GameCartas/carta8.gif';
-import Carta9 from './GameCartas/carta9.gif';
-import Carta10 from './GameCartas/carta10.gif';
-import Carta11 from './GameCartas/carta11.gif';
+import Carta1 from './GameCartas/Cartas1.gif';
+import Carta2 from './GameCartas/Cartas2.gif';
+import Carta3 from './GameCartas/Cartas3.gif';
+import Carta4 from './GameCartas/Cartas4.gif';
+import Carta5 from './GameCartas/Cartas5.gif';
+import Carta6 from './GameCartas/Cartas6.gif';
+import Carta7 from './GameCartas/Cartas7.gif';
+import Carta8 from './GameCartas/Cartas8.gif';
+import Carta9 from './GameCartas/Cartas9.gif';
+import Carta10 from './GameCartas/Cartas10.gif';
+import Carta11 from './GameCartas/Cartas11.gif';
 
 
 const data = {
